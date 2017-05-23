@@ -1,0 +1,2223 @@
+2015-09-03 04:28:05 Error: [MissingControllerException] Controller class BaojisController could not be found.
+Exception Attributes: array (
+  'class' => 'BaojisController',
+  'plugin' => NULL,
+)
+Request URL: /baojis/edit?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 04:30:05 Error: [MissingControllerException] Controller class BaojisController could not be found.
+Exception Attributes: array (
+  'class' => 'BaojisController',
+  'plugin' => NULL,
+)
+Request URL: /baojis/edit?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 04:30:20 Error: [MissingControllerException] Controller class BaojisController could not be found.
+Exception Attributes: array (
+  'class' => 'BaojisController',
+  'plugin' => NULL,
+)
+Request URL: /baojis/edit?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 05:17:31 Error: [MissingViewException] View file "Users\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\delete.ctp',
+)
+Request URL: /users/delete?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-03 05:25:48 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /users/edit
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select * from u...', Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select * from u...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select * from u...')
+#4 [internal function]: DboSource->query('select * from u...')
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu\app\Controller\UsersController.php(109): Model->query('select * from u...')
+#7 [internal function]: UsersController->edit('Users')
+#8 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-03 05:40:15 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\yipuqu\app\Controller\UsersController.php, line 159]
+2015-09-03 05:40:15 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /users/userlist
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 159)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 159, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 159, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-03 06:34:15 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\yipuqu\app\Controller\BaojiasController.php, line 189]
+2015-09-03 06:34:15 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /baojias/check
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 189)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 189, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 189, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-03 06:34:18 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\yipuqu\app\Controller\BaojiasController.php, line 189]
+2015-09-03 06:34:18 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /baojias/check
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 189)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 189, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 189, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-03 06:34:19 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\yipuqu\app\Controller\BaojiasController.php, line 189]
+2015-09-03 06:34:19 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /baojias/check
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 189)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 189, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 189, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-03 06:34:25 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\yipuqu\app\Controller\BaojiasController.php, line 189]
+2015-09-03 06:34:25 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /baojias/check
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 189)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 189, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 189, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-03 06:36:15 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\yipuqu\app\Controller\BaojiasController.php, line 193]
+2015-09-03 06:36:15 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /baojias
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 193)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 193, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 193, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-03 06:36:16 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\yipuqu\app\Controller\BaojiasController.php, line 193]
+2015-09-03 06:36:16 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /baojias/check
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 193)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 193, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 193, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-03 06:55:15 Error: [MissingViewException] View file "Baojias\search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\search.ctp',
+)
+Request URL: /baojias/search
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-03 06:55:58 Error: [MissingViewException] View file "Baojias\search.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\search.ctp',
+)
+Request URL: /baojias/search
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-03 16:36:06 Error: [MissingActionException] Action BaojiasController::report() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'report',
+)
+Request URL: /baojias/report
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-03 16:36:38 Error: [MissingActionException] Action BaojiasController::report() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'report',
+)
+Request URL: /baojias/report
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-03 16:44:23 Error: [MissingActionException] Action BaojiasController::report() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'report',
+)
+Request URL: /baojias/report
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-03 16:48:15 Error: [MissingViewException] View file "Baojias\reports.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\reports.ctp',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-03 16:50:54 Error: [MissingViewException] View file "Baojias\reports.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\reports.ctp',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-03 16:50:55 Error: [MissingViewException] View file "Baojias\reports.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\reports.ctp',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-03 16:50:56 Error: [MissingViewException] View file "Baojias\reports.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\reports.ctp',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-03 17:43:58 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\yipuqu\app\Controller\BaojiasController.php, line 22]
+2015-09-03 17:43:58 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /baojias/home
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 22, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 22, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-03 17:59:25 Error: [MissingActionException] Action DetailsController::checkIdExist() could not be found.
+Exception Attributes: array (
+  'controller' => 'DetailsController',
+  'action' => 'checkIdExist',
+)
+Request URL: /details/checkIdExist?id=MX3333
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(DetailsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-03 17:59:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'MX3333' in 'where clause'
+Request URL: /details/checkExist?name=444445&id=MX3333
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select * from d...', Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select * from d...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select * from d...')
+#4 [internal function]: DboSource->query('select * from d...')
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu\app\Controller\DetailsController.php(62): Model->query('select * from d...')
+#7 [internal function]: DetailsController->checkExist()
+#8 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DetailsController), Array)
+#9 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(DetailsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-03 17:59:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'MX4456456' in 'where clause'
+Request URL: /details/checkExist?name=344563456&id=MX4456456
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select * from d...', Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select * from d...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select * from d...')
+#4 [internal function]: DboSource->query('select * from d...')
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu\app\Controller\DetailsController.php(62): Model->query('select * from d...')
+#7 [internal function]: DetailsController->checkExist()
+#8 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DetailsController), Array)
+#9 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(DetailsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-03 18:02:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'MX' in 'where clause'
+Request URL: /details/checkExist?name=4563456&id=MX
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select * from d...', Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select * from d...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select * from d...')
+#4 [internal function]: DboSource->query('select * from d...')
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu\app\Controller\DetailsController.php(62): Model->query('select * from d...')
+#7 [internal function]: DetailsController->checkExist()
+#8 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DetailsController), Array)
+#9 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(DetailsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-03 18:03:08 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and name='å‘ƒå‘ƒå‘ƒ'' at line 1
+Request URL: /details/checkExist?name=%E5%91%83%E5%91%83%E5%91%83&id=
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select * from d...', Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select * from d...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select * from d...')
+#4 [internal function]: DboSource->query('select * from d...')
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu\app\Controller\DetailsController.php(62): Model->query('select * from d...')
+#7 [internal function]: DetailsController->checkExist()
+#8 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DetailsController), Array)
+#9 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(DetailsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-03 18:11:02 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as max_id from details' at line 1
+Request URL: /details/add
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select max(id) ...', Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select max(id) ...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select max(id) ...')
+#4 [internal function]: DboSource->query('select max(id) ...')
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu\app\Controller\DetailsController.php(26): Model->query('select max(id) ...')
+#7 [internal function]: DetailsController->add('Details')
+#8 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DetailsController), Array)
+#9 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(DetailsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-03 18:21:14 Error: [MissingActionException] Action UsersController::useinfo() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'useinfo',
+)
+Request URL: /users/useinfo
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-03 18:22:45 Error: [MissingActionException] Action UsersController::useinfo() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'useinfo',
+)
+Request URL: /users/useinfo
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-03 18:22:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<pre class= and username='root'' at line 1
+Request URL: /users/checkExist?name=root&id=%3Cpre+class%3D
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select * from u...', Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select * from u...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select * from u...')
+#4 [internal function]: DboSource->query('select * from u...')
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu\app\Controller\UsersController.php(143): Model->query('select * from u...')
+#7 [internal function]: UsersController->checkExist()
+#8 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-03 18:43:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/userinfo.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 18:43:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/userinfo.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-03 18:50:52 Error: [ConfigureException] Unknown email configuration "gmail".
+Request URL: /users/userinfo
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Network\Email\CakeEmail.php(1148): CakeEmail->_applyConfig('gmail')
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Network\Email\CakeEmail.php(362): CakeEmail->config('gmail')
+#2 C:\xampp\htdocs\yipuqu\app\Controller\UsersController.php(161): CakeEmail->__construct('gmail')
+#3 [internal function]: UsersController->userinfo('Users')
+#4 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-09-03 19:25:01 Error: [SocketException] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+Request URL: /users/send_email
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Network\Email\SmtpTransport.php(154): CakeSocket->connect()
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Network\Email\SmtpTransport.php(95): SmtpTransport->_connect()
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Network\Email\CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#3 C:\xampp\htdocs\yipuqu\app\Controller\UsersController.php(197): CakeEmail->send('111111')
+#4 [internal function]: UsersController->send_email()
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-09-03 19:33:11 Error: [SocketException] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+Request URL: /users/send_email
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Network\Email\SmtpTransport.php(154): CakeSocket->connect()
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Network\Email\SmtpTransport.php(95): SmtpTransport->_connect()
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Network\Email\CakeEmail.php(1173): SmtpTransport->send(Object(CakeEmail))
+#3 C:\xampp\htdocs\yipuqu\app\Controller\UsersController.php(197): CakeEmail->send('111111')
+#4 [internal function]: UsersController->send_email()
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-09-05 05:03:51 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\yipuqu\app\View\Baojias\add.ctp, line 48]
+2015-09-05 05:03:51 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /baojias/add
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 48, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 48, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-05 05:25:49 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:25:52 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:25:54 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=3
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:25:59 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=4
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:26:02 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=5
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:26:04 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=6
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:26:07 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=7
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:26:09 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=8
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:26:32 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=9
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:29:15 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=12
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:29:18 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=13
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 05:29:21 Error: [MissingViewException] View file "Categories\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Categories\\delete.ctp',
+)
+Request URL: /categories/delete?id=14
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:22:39 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail?%7B%22detail_name%22%3A%22%22%2C_%22brand%22%3A%22%E5%93%81%E7%89%8C1%22%2C%22type%22%3A%22%E7%B1%BB%E5%9E%8B1%22%2C%22size%22%3A%22undefined%22%2C%22unit_price%22%3A%22100%22%2C%22total%22%3A%22100%22%2C%22count%22%3A%221%22%2C%22unit%22%3A%22%E4%B8%AA%22%2C%22remark%22%3A%22%22%2C%22project_id%22%3A%22%22%2C%22project_name%22%3A%22%22%2C%22category%22%3A%22%22%2C%22parent_id%22%3A%22BJ000004%22%7D=
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:23:19 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:24:21 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:24:56 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:26:51 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:27:56 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:33:18 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:33:29 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:36:15 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:38:06 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:38:40 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:38:56 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:41:35 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:41:43 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:41:50 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:41:55 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:49:57 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:51:41 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:52:16 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:52:34 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:52:56 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:54:27 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 07:59:36 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yipuqu.project_detail_tmp' doesn't exist
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('insert into pro...', Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('insert into pro...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('insert into pro...')
+#4 [internal function]: DboSource->query('insert into pro...')
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu\app\Controller\BaojiasController.php(196): Model->query('insert into pro...')
+#7 [internal function]: BaojiasController->addDetail('Baojias')
+#8 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-05 08:00:36 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:38:15 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:38:23 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:40:48 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:41:58 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:42:30 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:43:07 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:44:24 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:44:31 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:45:28 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:46:05 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:47:53 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:48:08 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:48:58 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:49:40 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:51:24 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:53:16 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 10:57:52 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 11:00:02 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 11:00:07 Error: [MissingViewException] View file "Baojias\add_detail.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\add_detail.ctp',
+)
+Request URL: /baojias/addDetail
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-05 11:17:08 Error: [MissingActionException] Action BaojiasController::addDetail1() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'addDetail1',
+)
+Request URL: /baojias/addDetail1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 11:17:31 Error: [MissingActionException] Action BaojiasController::addDetail1() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'addDetail1',
+)
+Request URL: /baojias/addDetail1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:14:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /baojias/preview
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select * from b...', Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select * from b...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select * from b...')
+#4 [internal function]: DboSource->query('select * from b...')
+#5 C:\xampp\htdocs\yipuqu\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu\app\Controller\BaojiasController.php(357): Model->query('select * from b...')
+#7 [internal function]: BaojiasController->preview()
+#8 C:\xampp\htdocs\yipuqu\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-05 14:15:51 Error: [MissingActionException] Action BaojiasController::baojias() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'baojias',
+)
+Request URL: /baojias/baojias/preview?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:51 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:51 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/metisMenu/dist/metisMenu.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:51 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/bootstrap/dist/css/bootstrap.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:51 Error: [MissingActionException] Action BaojiasController::dist() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'dist',
+)
+Request URL: /baojias/dist/css/sb-admin-2.css
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:51 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/datatables-responsive/css/dataTables.responsive.css
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:51 Error: [MissingActionException] Action BaojiasController::dist() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'dist',
+)
+Request URL: /baojias/dist/css/timeline.css
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:51 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/morrisjs/morris.css
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/font-awesome/css/font-awesome.min.css
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/jquery/dist/jquery.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'js',
+)
+Request URL: /baojias/js/common.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/bootstrap/dist/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/metisMenu/dist/metisMenu.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/datatables/media/js/jquery.dataTables.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/raphael/raphael-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::bower_components() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'bower_components',
+)
+Request URL: /baojias/bower_components/morrisjs/morris.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'js',
+)
+Request URL: /baojias/js/morris-data.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:15:52 Error: [MissingActionException] Action BaojiasController::dist() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'dist',
+)
+Request URL: /baojias/dist/js/sb-admin-2.js
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 14:24:04 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\yipuqu\app\View\Baojias\edit.ctp, line 25]
+2015-09-05 14:24:04 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /baojias/edit?id=9
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-05 14:24:30 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\yipuqu\app\View\Baojias\edit.ctp, line 25]
+2015-09-05 14:24:30 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /baojias/edit?id=9
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-05 14:24:31 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\yipuqu\app\View\Baojias\edit.ctp, line 25]
+2015-09-05 14:24:31 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /baojias/edit?id=9
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-05 14:24:59 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\yipuqu\app\View\Baojias\edit.ctp, line 26]
+2015-09-05 14:24:59 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /baojias/edit?id=9
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-05 14:25:00 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\yipuqu\app\View\Baojias\edit.ctp, line 26]
+2015-09-05 14:25:00 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /baojias/edit?id=9
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-05 14:26:19 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\yipuqu\app\View\Baojias\edit.ctp, line 26]
+2015-09-05 14:26:19 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /baojias/edit?id=9
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-05 14:49:57 Error: Fatal Error (1): Class 'CakeEmail' not found in [C:\xampp\htdocs\yipuqu\app\Controller\BaojiasController.php, line 15]
+2015-09-05 14:49:57 Error: [FatalErrorException] Class 'CakeEmail' not found
+Request URL: /baojias/add
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'CakeEmai...', 'C:\xampp\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'CakeEmai...', 'C:\xampp\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'CakeEmai...', 'C:\xampp\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\yipuqu\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-05 17:13:21 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yipuqu.baojia_detail_tmp' doesn't exist
+Request URL: /baojias/edit?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('delete from bao...', Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('delete from bao...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('delete from bao...')
+#4 [internal function]: DboSource->query('delete from bao...')
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(173): Model->query('delete from bao...')
+#7 [internal function]: BaojiasController->edit('Baojias')
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-05 17:20:14 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yipuqu.baojia_detail_tmp' doesn't exist
+Request URL: /baojias/add
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('delete from bao...', Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('delete from bao...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('delete from bao...')
+#4 [internal function]: DboSource->query('delete from bao...')
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(134): Model->query('delete from bao...')
+#7 [internal function]: BaojiasController->add('Baojias')
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-05 17:32:25 Error: [MissingActionException] Action BaojiasController::reports() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'reports',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-05 17:33:31 Error: [MissingActionException] Action BaojiasController::reports() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'reports',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 04:37:38 Error: [MissingActionException] Action BaojiasController::reports() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'reports',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 04:37:44 Error: [MissingActionException] Action BaojiasController::reports() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'reports',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 05:06:46 Error: [MissingActionException] Action BaojiasController::reports() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'reports',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 05:06:49 Error: [MissingActionException] Action BaojiasController::reports() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'reports',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 05:07:03 Error: [MissingActionException] Action BaojiasController::reports() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'reports',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 05:07:20 Error: [MissingActionException] Action BaojiasController::reports() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'reports',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 05:07:24 Error: [MissingActionException] Action BaojiasController::reports() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'reports',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 05:07:29 Error: [MissingActionException] Action BaojiasController::reports() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'reports',
+)
+Request URL: /baojias/reports
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 06:11:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /baojias/export
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM `...', Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT * FROM `...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM `...')
+#4 [internal function]: DboSource->query('SELECT * FROM `...')
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(400): Model->query('SELECT * FROM `...')
+#7 [internal function]: BaojiasController->export()
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-06 06:14:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /baojias/export
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM `...', Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT * FROM `...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM `...')
+#4 [internal function]: DboSource->query('SELECT * FROM `...')
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(400): Model->query('SELECT * FROM `...')
+#7 [internal function]: BaojiasController->export()
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-06 06:15:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /baojias/export
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM `...', Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT * FROM `...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM `...')
+#4 [internal function]: DboSource->query('SELECT * FROM `...')
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(400): Model->query('SELECT * FROM `...')
+#7 [internal function]: BaojiasController->export()
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-06 06:16:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /baojias/export
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM `...', Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT * FROM `...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM `...')
+#4 [internal function]: DboSource->query('SELECT * FROM `...')
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(400): Model->query('SELECT * FROM `...')
+#7 [internal function]: BaojiasController->export()
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-06 06:18:15 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /baojias/export
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM `...', Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT * FROM `...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM `...')
+#4 [internal function]: DboSource->query('SELECT * FROM `...')
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(400): Model->query('SELECT * FROM `...')
+#7 [internal function]: BaojiasController->export()
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-06 06:23:45 Error: [MissingViewException] View file "Baojias\export.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\export.ctp',
+)
+Request URL: /baojias/export?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-06 06:25:15 Error: [MissingViewException] View file "Baojias\export.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\export.ctp',
+)
+Request URL: /baojias/export?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-06 06:25:41 Error: [MissingViewException] View file "Baojias\export.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\export.ctp',
+)
+Request URL: /baojias/export?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-06 06:25:54 Error: [MissingViewException] View file "Baojias\export.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Baojias\\export.ctp',
+)
+Request URL: /baojias/export?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#4 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-06 06:27:44 Error: Fatal Error (1): Class 'exportTemplateConfig' not found in [C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php, line 396]
+2015-09-06 06:27:44 Error: [FatalErrorException] Class 'exportTemplateConfig' not found
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'exportTe...', 'C:\\xampp\\htdocs...', 396)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'exportTe...', 'C:\\xampp\\htdocs...', 396, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'exportTe...', 'C:\\xampp\\htdocs...', 396, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 06:33:13 Error: Fatal Error (1): Class 'ExportTp' not found in [C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php, line 396]
+2015-09-06 06:33:13 Error: [FatalErrorException] Class 'ExportTp' not found
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'ExportTp...', 'C:\\xampp\\htdocs...', 396)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ExportTp...', 'C:\\xampp\\htdocs...', 396, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'ExportTp...', 'C:\\xampp\\htdocs...', 396, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 06:39:50 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\xampp\htdocs\yipuqu-1\app\Config\export.php, line 57]
+2015-09-06 06:39:50 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 06:40:55 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\xampp\htdocs\yipuqu-1\app\Config\export.php, line 57]
+2015-09-06 06:40:55 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 06:41:50 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\xampp\htdocs\yipuqu-1\app\Config\export.php, line 57]
+2015-09-06 06:41:50 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 06:42:14 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\xampp\htdocs\yipuqu-1\app\Config\export.php, line 57]
+2015-09-06 06:42:14 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\\xampp\\htdocs...', 57, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 06:43:01 Error: Fatal Error (1): Call to a member function getProperties() on null in [C:\xampp\htdocs\yipuqu-1\app\Config\export.php, line 12]
+2015-09-06 06:43:01 Error: [FatalErrorException] Call to a member function getProperties() on null
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 06:44:42 Error: [PHPExcel_Exception] Invalid cell coordinate A1-K1
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel\Worksheet.php(1227): PHPExcel_Cell::coordinateFromString('A1-K1')
+#1 C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel\Worksheet.php(1186): PHPExcel_Worksheet->_createNewCell('A1-K1')
+#2 C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel\Worksheet.php(1095): PHPExcel_Worksheet->getCell('A1-K1')
+#3 C:\xampp\htdocs\yipuqu-1\app\Config\export.php(84): PHPExcel_Worksheet->setCellValue('A1-K1', '\xCF\xEE\xC4\xBF\xD4\xA4\xCB\xE3')
+#4 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(397): ExportTemplateConfig->exportTp1(Array, Array)
+#5 [internal function]: BaojiasController->export()
+#6 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#7 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#9 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-09-06 06:51:58 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel.php, line 623]
+2015-09-06 06:51:58 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 623)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 623, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 623, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 06:57:12 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel\ReferenceHelper.php, line 824]
+2015-09-06 06:57:12 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /baojias/export?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 824)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 824, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 824, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 07:16:18 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel.php, line 346]
+2015-09-06 07:16:18 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /baojias/export?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 346)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 346, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 346, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 07:27:33 Error: [MissingActionException] Action BaojiasController::report() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'report',
+)
+Request URL: /baojias/report?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 07:27:59 Error: [MissingActionException] Action BaojiasController::report() could not be found.
+Exception Attributes: array (
+  'controller' => 'BaojiasController',
+  'action' => 'report',
+)
+Request URL: /baojias/report?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#2 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-06 07:28:33 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel\ReferenceHelper.php, line 824]
+2015-09-06 07:28:33 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /baojias/export?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 824)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 824, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\\xampp\\htdocs...', 824, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 07:28:51 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yipuqu.baojias_detail' doesn't exist
+Request URL: /baojias/export?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select * from b...', Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select * from b...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select * from b...')
+#4 [internal function]: DboSource->query('select * from b...')
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(393): Model->query('select * from b...')
+#7 [internal function]: BaojiasController->export()
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-06 07:29:50 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yipuqu.baojias_detail' doesn't exist
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select * from b...', Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select * from b...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select * from b...')
+#4 [internal function]: DboSource->query('select * from b...')
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(393): Model->query('select * from b...')
+#7 [internal function]: BaojiasController->export()
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-06 08:16:20 Error: Fatal Error (1): Call to undefined function exportTp1() in [C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php, line 394]
+2015-09-06 08:16:20 Error: [FatalErrorException] Call to undefined function exportTp1()
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 394)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 394, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 394, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 08:36:48 Error: Fatal Error (1): Class 'ExportTemplates' not found in [C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php, line 402]
+2015-09-06 08:36:48 Error: [FatalErrorException] Class 'ExportTemplates' not found
+Request URL: /baojias/export?id=3
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 08:37:56 Error: Fatal Error (1): Class 'ExportTemplates' not found in [C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php, line 402]
+2015-09-06 08:37:56 Error: [FatalErrorException] Class 'ExportTemplates' not found
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 08:38:07 Error: Fatal Error (1): Class 'ExportTemplates' not found in [C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php, line 402]
+2015-09-06 08:38:07 Error: [FatalErrorException] Class 'ExportTemplates' not found
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 08:38:34 Error: Fatal Error (1): Class 'ExportTemplate' not found in [C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php, line 402]
+2015-09-06 08:38:34 Error: [FatalErrorException] Class 'ExportTemplate' not found
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 08:38:55 Error: Fatal Error (1): Class 'ExportTemplate' not found in [C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php, line 402]
+2015-09-06 08:38:55 Error: [FatalErrorException] Class 'ExportTemplate' not found
+Request URL: /baojias/export?id=2
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'ExportTe...', 'C:\\xampp\\htdocs...', 402, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 08:40:01 Error: Fatal Error (1): Call to a member function getProperties() on null in [C:\xampp\htdocs\yipuqu-1\app\Lib\ExportTemplate.php, line 61]
+2015-09-06 08:40:01 Error: [FatalErrorException] Call to a member function getProperties() on null
+Request URL: /baojias/export?id=3
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 61, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 61, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 09:29:34 Error: [PHPExcel_Exception] Cell coordinate can not be a range of cells.
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel\Worksheet.php(1126): PHPExcel_Worksheet->getCell('A7:D7')
+#1 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(545): PHPExcel_Worksheet->setCellValueExplicit('A7:D7', '\xE5\xAE\x89\xE8\xA3\x85\xE8\xB0\x83\xE8\xAF\x95\xE8\xB4\xB9...', 's')
+#2 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(428): BaojiasController->exportTp(Object(PHPExcel), Array, Array)
+#3 [internal function]: BaojiasController->export()
+#4 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#7 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-09-06 09:32:15 Error: [PHPExcel_Exception] Invalid cell coordinate A7++
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel\Writer\Excel5\Worksheet.php(1535): PHPExcel_Cell::coordinateFromString('A7++')
+#1 C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel\Writer\Excel5\Worksheet.php(495): PHPExcel_Writer_Excel5_Worksheet->_writeMergedCells()
+#2 C:\xampp\htdocs\yipuqu-1\app\Lib\PHPExcel\Writer\Excel5.php(187): PHPExcel_Writer_Excel5_Worksheet->close()
+#3 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(440): PHPExcel_Writer_Excel5->save('php://output')
+#4 [internal function]: BaojiasController->export()
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#6 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#8 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-09-06 09:43:43 Error: Fatal Error (1): Call to undefined method PHPExcel_Style::getBottom() in [C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php, line 511]
+2015-09-06 09:43:43 Error: [FatalErrorException] Call to undefined method PHPExcel_Style::getBottom()
+Request URL: /baojias/export?id=10
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 511)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 511, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 511, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 11:48:22 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\yipuqu-1\app\View\Baojias\add.ctp, line 71]
+2015-09-06 11:48:23 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /baojias/add
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 71)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 71, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 71, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 12:07:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'
+Request URL: /baojias/edit?id=undefined
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('select * from b...', Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('select * from b...', Array, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('select * from b...')
+#4 [internal function]: DboSource->query('select * from b...')
+#5 C:\xampp\htdocs\yipuqu-1\lib\Cake\Model\Model.php(3447): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\yipuqu-1\app\Controller\BaojiasController.php(170): Model->query('select * from b...')
+#7 [internal function]: BaojiasController->edit('Baojias')
+#8 C:\xampp\htdocs\yipuqu-1\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(BaojiasController), Array)
+#9 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\yipuqu-1\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BaojiasController), Object(CakeRequest))
+#11 C:\xampp\htdocs\yipuqu-1\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-09-06 14:59:54 Error: Fatal Error (1): Call to a member function query() on null in [C:\xampp\htdocs\yipuqu-1\app\Controller\DetailsController.php, line 20]
+2015-09-06 14:59:54 Error: [FatalErrorException] Call to a member function query() on null
+Request URL: /details/add
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 20, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 15:00:48 Error: Fatal Error (1): Call to a member function query() on null in [C:\xampp\htdocs\yipuqu-1\app\Controller\DetailsController.php, line 54]
+2015-09-06 15:00:48 Error: [FatalErrorException] Call to a member function query() on null
+Request URL: /details/edit?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 54, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 54, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 15:01:02 Error: Fatal Error (1): Call to a member function query() on null in [C:\xampp\htdocs\yipuqu-1\app\Controller\DetailsController.php, line 54]
+2015-09-06 15:01:02 Error: [FatalErrorException] Call to a member function query() on null
+Request URL: /details/edit?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 54, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 54, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 16:16:12 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\yipuqu-1\app\View\Details\edit.ctp, line 32]
+2015-09-06 16:16:12 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /details/edit?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 16:16:58 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\yipuqu-1\app\View\Details\edit.ctp, line 32]
+2015-09-06 16:16:58 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /details/edit?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 16:18:35 Error: Fatal Error (4): syntax error, unexpected ''selected'' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\yipuqu-1\app\View\Details\edit.ctp, line 32]
+2015-09-06 16:18:35 Error: [FatalErrorException] syntax error, unexpected ''selected'' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /details/edit?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-06 16:29:49 Error: Fatal Error (4): syntax error, unexpected ''selected'' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\yipuqu-1\app\View\Details\edit.ctp, line 32]
+2015-09-06 16:29:49 Error: [FatalErrorException] syntax error, unexpected ''selected'' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /details/edit?id=1
+Stack Trace:
+#0 C:\xampp\htdocs\yipuqu-1\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32, Array)
+#2 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 32, Array)
+#3 C:\xampp\htdocs\yipuqu-1\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-07 11:10:21 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/Jean/Files/workspace/Quote/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/Jean/Files/workspace/Quote/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/Jean/Files/workspace/Quote/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /Users/Jean/Files/workspace/Quote/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/Jean/Files/workspace/Quote/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#5 /Users/Jean/Files/workspace/Quote/lib/Cake/Model/Model.php(3446): Model->getDataSource()
+#6 /Users/Jean/Files/workspace/Quote/app/Controller/UsersController.php(24): Model->query('select * from c...')
+#7 [internal function]: UsersController->index('Users')
+#8 /Users/Jean/Files/workspace/Quote/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Users/Jean/Files/workspace/Quote/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Jean/Files/workspace/Quote/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/Jean/Files/workspace/Quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 /Users/Jean/Files/workspace/Quote/index.php(41): require('/Users/Jean/Fil...')
+#13 {main}
+2016-01-22 07:57:06 Error: [MissingViewException] View file "Users/delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/delete.ctp',
+)
+Request URL: /users/delete?id=1
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/Jean/files/workspace/epush/quote/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Users/Jean/files/workspace/epush/quote/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/Jean/files/workspace/epush/quote/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-01-23 06:23:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Request URL: /categories/checkExist?name=12334&id=undefined
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/Jean/files/workspace/epush/quote/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('select * from c...', Array)
+#2 /Users/Jean/files/workspace/epush/quote/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('select * from c...', Array, Array)
+#3 /Users/Jean/files/workspace/epush/quote/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('select * from c...')
+#4 [internal function]: DboSource->query('select * from c...')
+#5 /Users/Jean/files/workspace/epush/quote/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /Users/Jean/files/workspace/epush/quote/app/Controller/CategoriesController.php(69): Model->query('select * from c...')
+#7 [internal function]: CategoriesController->checkExist()
+#8 /Users/Jean/files/workspace/epush/quote/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#9 /Users/Jean/files/workspace/epush/quote/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Jean/files/workspace/epush/quote/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#11 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-01-23 06:23:53 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Request URL: /categories/checkExist?name=12334&id=undefined
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/Jean/files/workspace/epush/quote/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('select * from c...', Array)
+#2 /Users/Jean/files/workspace/epush/quote/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('select * from c...', Array, Array)
+#3 /Users/Jean/files/workspace/epush/quote/lib/Cake/Model/Datasource/DboSource.php(540): DboSource->fetchAll('select * from c...')
+#4 [internal function]: DboSource->query('select * from c...')
+#5 /Users/Jean/files/workspace/epush/quote/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /Users/Jean/files/workspace/epush/quote/app/Controller/CategoriesController.php(69): Model->query('select * from c...')
+#7 [internal function]: CategoriesController->checkExist()
+#8 /Users/Jean/files/workspace/epush/quote/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#9 /Users/Jean/files/workspace/epush/quote/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/Jean/files/workspace/epush/quote/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#11 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-01-23 08:30:05 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/jquery-ui/jquery-ui.min.css
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-23 08:30:17 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/jquery-ui/jquery-ui.min.css
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-23 08:31:07 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/jquery-ui/jquery-ui.min.css
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-23 08:32:29 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/jquery-ui/jquery-ui.min.css
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-23 08:52:15 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/jquery-ui/jquery-ui.min.css
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-23 08:52:23 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/jquery-ui/jquery-ui.min.css
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-23 08:52:59 Error: [MissingControllerException] Controller class BowerComponentsController could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponentsController',
+  'plugin' => NULL,
+)
+Request URL: /bower_components/jquery-ui/jquery-ui.min.css
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-24 16:15:29 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-24 16:26:31 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-01-24 16:35:03 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /test/
+Stack Trace:
+#0 /Users/Jean/files/workspace/epush/quote/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
